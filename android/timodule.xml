@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:module xmlns:ti="http://ti.appcelerator.org" xmlns:android="http://schemas.android.com/apk/res/android">
+	<android xmlns:android="http://schemas.android.com/apk/res/android">
+		<manifest>
+			<!-- Required: Used to deliver Bugsnag crash reports -->
+			<uses-permission android:name="android.permission.INTERNET"/>
+			<!-- Optional: To provide network connectivity information to Bugsnag -->
+			<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+			<!-- Optional: To see which Activity was active at the time of a crash -->
+			<uses-permission android:name="android.permission.GET_TASKS"/>
+		</manifest>
+	</android>
+</ti:module>

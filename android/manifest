@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: NappBugsnag
+author: Mads Moller
+license: MIT
+copyright: Copyright (c) 2015 by Napp
+
+# these should not be edited
+name: NappBugsnag
+moduleid: dk.napp.bugsnag
+guid: 5f48ff4f-53f8-4b33-88e7-e41f04a9394e
+platform: android
+minsdk: 4.1.0.GA
